@@ -37,4 +37,27 @@ class User extends Common
 
     }
 
+    /**
+     * 绑定手机号
+     */
+    public function bindMobile()
+    {
+
+    }
+
+    /**
+     * 绑定银行卡
+     */
+    public function bindBankCard()
+    {
+
+    }
+
+    /**
+     * 实名认证
+     */
+    public function identityVerify()
+    {
+
+    }
 }

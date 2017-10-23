@@ -37,7 +37,6 @@ class Common extends Model
      */
     public function createData($param)
     {
-
         // 验证
         $validate = validate($this->name);
         if (!$validate->check($param)) {

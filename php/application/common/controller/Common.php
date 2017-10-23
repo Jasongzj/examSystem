@@ -35,7 +35,7 @@ class Common extends Controller
                 $array[$key] = $this->object_array($value);  
             }  
         }  
-        return $array;  
+        return $array;
     }
 }
  

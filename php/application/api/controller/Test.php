@@ -21,4 +21,33 @@ class Test extends Common
         $param = $this->request->param();
         $userId = $param['uid'];
     }
+
+    /**
+     * 生成考试题
+     */
+    public function generateTest()
+    {
+        $param = $this->request->param();
+        $userId = $param['uid'];
+    }
+
+    /**
+     * 计算考试结果
+     */
+    public function testResult()
+    {
+        $param = $this->request->param();
+        $userId = $param['uid'];
+
+        //记录考试成绩
+    }
+
+    /**
+     * 获取考试排名
+     */
+    public function testRank()
+    {
+        $param = $this->request->param();
+        $userId = $param['uid'];
+    }
 }
